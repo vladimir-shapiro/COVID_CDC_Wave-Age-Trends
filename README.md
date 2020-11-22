@@ -1,6 +1,11 @@
 # COVID_CDC_Wave-Age-Trends
 ## Supplementary code for the preprint [COVID-19 Outbreaks and Age Mortality Patterns]().
 
+<p align="middle">
+  <img src="assets/death_count_age_structure.png" width="400" />
+  <img src="assets/average_age.png" width="400" /> 
+</p>
+
 ### Authors:
 - Vladimir Shapiro
 
@@ -15,5 +20,5 @@
 If you used this research please cite the original [paper]().
 
 ### Acknowledgements
-The following repoositories have been used:
+The following repositories have been used:
 - [Confidence intervals on linear regression](https://gist.github.com/riccardoscalco/5356167)
