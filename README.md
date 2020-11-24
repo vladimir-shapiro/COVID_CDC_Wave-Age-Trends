@@ -17,7 +17,7 @@
 - Modify the week range settings if wish to obtain up-to-date or arbitrary time period results.
 
 ### Citation
-If you used this research please cite the original [paper]().
+If you used this research please cite the original [paper](https://www.researchsquare.com/article/rs-113791/v1) DOI: 10.21203/rs.3.rs-113791/v1.
 
 ### Acknowledgements
 The following repositories have been used:

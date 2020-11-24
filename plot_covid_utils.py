@@ -30,6 +30,7 @@ def set_rcParams():
     plt.rcParams['figure.titlesize']    = 11
     plt.rcParams['figure.figsize']      = [9, 6]
     plt.rcParams['figure.dpi']          = 200 
+    plt.rcParams['figure.facecolor']    = 'white'
     plt.rc('legend', fontsize=6)
 
 
