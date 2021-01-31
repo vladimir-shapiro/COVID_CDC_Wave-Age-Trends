@@ -18,7 +18,7 @@ def read_csv(file_path):
 def get_CDC_data_Socrates(main_cont, page_cont):
     # retrieves data from  "https://data.cdc.gov/resource/vsak-wrfu.json"
     client      = Socrata(main_cont, None)
-    response    = client.get(page_cont, limit=2000)
+    response    = client.get(page_cont, limit=5000)
     return     response
 
 def linear_regression(x, y, prob):
@@ -79,7 +79,10 @@ def parse_rename_age_group(age_group, list_groups):
         return "85_OVER"
 
     token_space = age_group.split(" ")[0]
-    token_dash = token_space.split("-")[1] # extract 14 in 5-14
+    if "-" in token_space:
+        token_dash = token_space.split("-")[1] # extract 14 in 5-14
+    else:
+        token_dash = token_space
     matching = [group for group in list_groups if token_dash in group]
     return matching[0]
 

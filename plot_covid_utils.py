@@ -107,7 +107,7 @@ def plot_layered_65plus(covid_dict, end_week):
     ax.stackplot(np.array(end_week), y, labels=[ 'Under 65', 'Over 65'], alpha=0.75, colors=['black', 'red'])
     ax.set_title('Age Structure of COVID-19 Deaths')
     ax.title.set_size(10)
-    ax.legend(loc='upper right')
+    ax.legend(loc='upper left')
     ax.set_ylabel('COVID-19 Death Count')
     ax.set_xlabel('Last week day')
     fig.tight_layout(pad=4)
